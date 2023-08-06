@@ -1,31 +1,75 @@
-/* Set background color for the entire page */
 body {
-    background-color: #f0f0f0;
+    margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Style the div */
-.page-container {
-    background-color: #ffffff;
-    color: #333333;
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 20px;
 }
 
-/* Apply a unique font to the headings */
-h1, h2 {
-    font-family: 'Your-Unique-Font', Arial, sans-serif;
-}
-
-/* Add border around the section elements with rounded corners */
-section {
-    border: 1px solid #cccccc;
-    border-radius: 10px;
+.product-card {
+    width: 30%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* Style the list items inside the skills section on hover */
-section ul li:hover {
-    color: #ff0000; /* Change to your desired hover color */
-    cursor: pointer;
+.product-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
 }
